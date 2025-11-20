@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmarcar Consulta</title>
+</head>
+<body>
+    <h1>
+        Desmarcar Consulta
+    </h1>
+
+    <form method="get" action="/agenda/desmarcar">
+
+        <label>Nome do paciente:</label>
+        <input name="paciente"> <br> <br>
+        <label>Data da consulta:</label>
+        <input name="data" type="date"> <br> <br>
+        <label>Hora da consulta:</label>
+        <input name="hora" type="time"> <br> <br>
+
+        <button type="submit">Desmarcar</button>
+    </form>
+</body>
+</html>

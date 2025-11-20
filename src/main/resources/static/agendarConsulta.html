@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consulta</title>
+</head>
+<body>
+    <h1>
+        Agendar Consulta
+    </h1>
+
+    <form method="get" action="/agenda/marcar">
+        <label>Nome do paciente:</label>
+        <input name="paciente"> <br> <br>
+        <label>Nome do medico:</label>
+        <input name="medico"> <br> <br>
+        <label>Data da consulta:</label>
+        <input name="data" type="date"> <br> <br>
+        <label>Hora da consulta:</label>
+        <input name="hora" type="time"> <br> <br>
+        <label>Valor da consulta:</label>
+        <input name="valorConsulta" type="number" step="0.01"><br> <br> <br>
+
+        <button type="submit">Marcar agenda</button>
+    </form>
+</body>
+</html>
